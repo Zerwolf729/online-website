@@ -1,0 +1,130 @@
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid greenyellow;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.div-1-1 {
+    background-color: aquamarine;
+}
+
+.div-1-2 {
+    background-color: blueviolet;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.div-2-1 {
+    background-color: aquamarine;
+}
+
+.div-2-2 {
+    background-color: blueviolet;
+}
+
+.div-2-3 {
+    background-color: aquamarine;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.div-3 {
+    background-color: blueviolet;
+}
+
+.dino-boxes {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.dino-box {
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 0 ;
+    margin-top: 10px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.dino-image-1 {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: right;
+    margin: 0;
+}
+
+.dino-image-2 {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.dino-image-3 {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.dino-name {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.dino-div-acc {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    column-gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 150px;
+    height: 35px;
+}
+
+.dino-img-acc {
+    width: 28px;
+    height: 28px;
+    border: none;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 14px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.dino-stats {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    vertical-align: middle;
+}
+
+.dino-button {
+    background-color: rgb(50, 126, 226);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 5px 10px 5px;
+    padding: 5px 10px;
+}
+

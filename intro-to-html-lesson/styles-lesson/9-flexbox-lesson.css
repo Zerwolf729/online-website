@@ -1,0 +1,165 @@
+.div1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.div-1-1 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.div-1-2 {
+    background-color: lightpink;
+    width: 75px;
+}
+
+.div-2-1 {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.div-2-2 {
+    background-color: lightpink;
+    flex: 1;
+}
+
+.div-2-3 {
+    background-color: lightblue;
+    width: 75px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.div-3 {
+    background-color: lightpink;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.div-4 {
+    background-color: lightpink;
+}
+
+.notif-container {
+    width: 300px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px ;
+    margin-bottom: 30px;
+
+}
+
+.notif-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.notif-family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification {
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-radius: 15px;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+
+.header-purple {
+    background-color: rgb(124, 81, 141);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.h-left {
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.h-middle {
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    border-radius: 15px;
+    height: 30px;
+    margin: 12px;
+    padding-left: 20px;
+}
+
+.h-right {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(124, 81, 141);
+    padding: 5px 10px;
+}
+
+
+.pet-account {
+    font-family: roboto, arial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.cat-image {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.pet-info {
+    width: 120px;
+    line-height: 10px;
+}
+
+.pet-name {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.pet-type {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+.pet-more-info {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+.follow-button {
+    color: white;
+    background-color: rgb(92, 161, 218);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-weight: 500;
+}

@@ -1,0 +1,40 @@
+body {
+    height: 3000px;
+}
+
+.black-pant {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+}
+
+.img-pant {
+    width: 500px;
+}
+
+.discount {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+}

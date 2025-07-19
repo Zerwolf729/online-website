@@ -1,0 +1,186 @@
+div {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+.red-square {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-right: 10px ;
+    display: inline-block;
+}
+
+.green-circle {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px ;
+    display: inline-block;
+}
+
+.survey-div-form {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px 50px 10px 10px;
+    width: 200px;
+    height: 90px;
+}
+
+.div-yt-music {
+    background-color: rgb(43, 33, 33);
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.yt-music-title {
+    color: white;
+    padding: 15px 10px 0 10px;
+    font-weight: bold;
+}
+
+.yt-music-desc {
+    color: rgb(100, 100, 100);
+    font-size: 10px;
+    padding: 0 10px 15px 10px;
+}
+
+.image-4 {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.what-happ {
+    color: rgb(100, 100, 100);
+    border: none;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 170px;
+    display: inline-block;
+}
+
+.tweet-button {
+    color: white;
+    background-color: rgb(52, 128, 241);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    margin-top: 6px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.what-happ:focus {
+    outline: none;
+}
+
+.tweet-div-box {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    padding: 15px 20px 15px 15px;
+    display:block;
+    width: 300px;
+}
+
+.dino-box {
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0 ;
+    margin-top: 10px;
+    margin-right:5px;
+    padding: 0;
+    display: inline-block;
+}
+
+.dino-image-1 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: right;
+    margin: 0;
+}
+
+.dino-image-2 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.dino-image-3 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.dino-name {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.dino-stats {
+    margin: 5px 0  0 5px;
+    font-size: 12px;
+    color: rgb(100, 100, 100)
+}
+
+.dino-button {
+    background-color: rgb(50, 126, 226);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 5px 10px 5px;
+    padding: 5px 10px;
+}
+
+.dino-boxes {
+    display: block;
+}
+
+.google-logo {
+    width: 280px;
+    margin: 10px 0;
+}
+
+.google-search {
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px 15px;
+    margin: 0 0 10px 0;
+}
+
+.google-search:focus {
+    outline: none;
+}
+
+.google-web-div {
+    text-align: center;
+}
+
+.google-button {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 3px;
+}

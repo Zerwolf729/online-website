@@ -1,0 +1,162 @@
+.div1 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.div-1-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 100px;
+}
+
+.item-1 {
+    color: white;
+    background-color: black;
+}
+
+.div-1-2 {
+    background-color: blueviolet;
+    width: 200px;
+}
+
+.div-2-1 {
+    background-color: aqua;
+    width: 100px;
+}
+
+.div-2-2 {
+    background-color: blueviolet;
+    width: 200px;
+}
+
+.row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.row2 {
+    color: white;
+    background-color: black;
+}
+
+.all-in {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 390px;
+    padding: 5px;
+    flex-direction: column;
+    line-height: 1.15;
+
+}
+.all-inbox {
+    margin-bottom: 10px;
+    display: flex;
+    color: gray;
+    padding-left: 5px;
+}
+
+.all-inbox-2 {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.cat-image {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 15px;
+    display: block;
+    justify-content: center;
+}
+
+.cat-chat {
+    margin-right: 0;
+}
+
+.chat-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-1-1 {
+    font-weight: bold;
+}
+
+.chat-1-2 {
+    color: gray;
+}
+
+.chat-2 {
+    font-weight: bold;
+}
+.chat-3 {
+    color: gray;
+}
+
+.tweet-post {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tweet-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.tweet-name {
+    font-weight: bold;
+}
+
+.tweet-tag {
+    color: gray;
+}
+
+.tweet-content {
+    margin-bottom: 10px;
+}
+
+.tweet-preview {
+    display: flex;
+    flex-direction: row;
+}
+
+.gray-block {
+    background-color: rgb(200, 200, 200);
+    border-radius: 20px 0px 0px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.tweet-column-2  {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.yt-url {
+    color: gray;
+    margin-bottom: 5px;
+}

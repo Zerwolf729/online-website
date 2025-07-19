@@ -1,0 +1,121 @@
+.login-name, .login-email {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-name, .login-email:focus {
+    outline: none;
+}
+
+.survey-form {
+    width: 192px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.survey-button {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.google-logo {
+    width: 200px;
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.google-search {
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px 15px;
+    margin: 0 0 10px 0;
+}
+
+.google-search:focus {
+    outline: none;
+}
+
+.first-name {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    width: 100px;
+    padding: 4px 8px;
+}
+
+.last-name {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    width: 100px;
+    padding: 4px 8px;
+}
+
+.email-sign-up {
+    width: 221px;
+    padding: 4px 8px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    display: block;
+    margin-top: 8px;
+}
+
+.sign-up-button {
+    color:white;
+    background-color: rgb(28, 125, 236);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 238px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.first-name, .last-name, .email-sign-up:focus {
+    outline: none;
+}
+
+.uber-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.uber-loct {
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.uber-dest {
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.uber-loct, .uber-dest:focus {
+    outline: none;
+}
+
+.uber-request {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.uber-schedule {
+    background-color: rgb(230, 230, 230);
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}

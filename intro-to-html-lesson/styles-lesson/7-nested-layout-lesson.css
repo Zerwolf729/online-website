@@ -1,0 +1,187 @@
+hr {
+    width: 100%;
+}
+
+p {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pet-account {
+    display: block;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.div-cat-image {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+}
+.cat-image {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+.pet-info {
+    width: 120px;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    vertical-align: top;
+    line-height: 20px;
+}
+
+.pet-name {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.pet-type {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+.pet-more-info {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+.div-button {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.follow-button {
+    color: white;
+    background-color: rgb(92, 161, 218);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+.youtobe-video-scroll {
+    display: inline-block;
+    margin: 0;
+}
+
+.video-thumbnail {
+    display: inline-block;
+    width: 200px;
+    margin: 5px 10px;
+    vertical-align: top;
+}
+
+.thumbnail-1 {
+    height: 120px;
+    width: 200px;
+}
+
+.video-info {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    line-height: 20px;
+    margin-top: 8px;
+}
+
+.video-title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+.video-author {
+    color: rgb(100, 100, 100);
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+
+.video-stats {
+    color: rgb(100, 100, 100);
+    vertical-align: bottom;
+}
+
+.dino-box {
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0 ;
+    margin-top: 10px;
+    margin-right:5px;
+    padding: 0;
+    display: inline-block;
+}
+
+.dino-image-1 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: right;
+    margin: 0;
+}
+
+.dino-image-2 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.dino-image-3 {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.dino-name {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.dino-div-acc {
+    display: block;
+    width: 150px;
+    height: 35px;
+}
+
+.dino-img-acc {
+    width: 26px;
+    height: 26px;
+    border: none;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 13px;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.dino-stats {
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dino-button {
+    background-color: rgb(50, 126, 226);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 5px 5px 10px 5px;
+    padding: 5px 10px;
+}
+
+.dino-boxes {
+    display: block;
+}

@@ -1,0 +1,30 @@
+.close-button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 34px;
+    width: 34px;
+    border-radius: 17px;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+.gray-rectangle {
+    background-color: gray;
+    height: 180px;
+    width:320px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.video-time {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 8px;
+}

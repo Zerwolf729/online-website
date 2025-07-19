@@ -1,0 +1,185 @@
+p {
+    font-family:roboto;
+    margin : 0 0;
+}
+
+.shop-link {
+    cursor: pointer;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+}
+
+.tahoma-font {
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+.arial-font {
+    font-family: arial;
+    font-weight: bold;
+    width: 200px;
+}
+
+.arial-font-span {
+    font-style: italic;
+    color:  rgb(230, 75, 75);
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.subtitle {
+    color: rgb(100, 100, 100);
+    margin-bottom: 18px;
+}
+
+.content {
+    width: 300px;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.button {
+    font-family: Verdana;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.shopping {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.shop-desc {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.shop-links {
+    text-align: center;
+    color: rgb(26, 136, 226);
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.new-paragraph {
+    color: rgb(230, 75, 75);
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.macbook-pro {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.super-pros {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.price-macbook {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.macbook-button {
+    text-align: center;
+}
+.macbook-span {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 50px;
+    cursor:pointer;
+
+}
+
+.thousand-trade {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+.thousand-span {
+    color: gray;
+    font-size: 15px;
+}
+
+.today-price {
+    color:rgb(55, 160, 55);
+    font-size:15px;
+    margin-bottom: 5px;
+}
+
+.after-hours {
+    color: gray;
+    font-size: 15px;
+}
+
+.price-after {
+    color:rgb(233, 52, 52);
+} 
+
+.free-code {
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+}
+
+.free-code-span {
+    font-weight: normal;
+    color: gray;
+}
+
+.chip-it {
+    margin-top: 30px;
+}
+
+.chip-it-span {
+    color: rgb(50, 133, 241);
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    font-family: monserrat;
+}
+
+.brand-desc {
+    text-align: center;
+    font-size: 22px;
+    font-family: monserrat;
+}
+
+.brand-span {
+    text-decoration: underline;
+    font-family: monserrat;
+}
