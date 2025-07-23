@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/video.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">
+                    Search
+                </div>
+            </button>
+            <!--Put position absolute inside position relative-->
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">
+                    Search with your voice
+                </div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">
+                    Create
+                </div>
+            </div>
+
+            <div class="youtube-apps-icon-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">
+                    YouTobe Apps
+                </div>
+            </div>
+
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                
+                <div class="notifications-count">
+                    3
+                </div>
+
+                <div class="tooltip">
+                    Notifications
+                </div>
+            </div>
+            
+            <img class="current-user-picture" src="channel-picture/Grim-lock.jpg">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <div>
+                Home
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <div>
+                Explore
+            </div>
+        </div>
+
+
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <div>
+                Subscriptions
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <div>
+                Originals
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <div>
+                Youtobe Music
+            </div>
+        </div>
+
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <div>
+                Library
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=97tzvg_-ORg&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-1.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        12.54
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@AkbarzzTzy" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-1.png">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-1.png">
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Akbar aja
+                                    </div>
+            
+                                    <div class="channel-tooltip-stats">
+                                        3,5 rb subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=97tzvg_-ORg&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                3 JAM BINTANG MALAH MINUS😭!! JO DISPAM VOICE JOMOK🤣
+                            </p>    
+                        </a>
+                        
+                        <p class="video-author">
+                            Akbar Aja
+                        </p>
+            
+                        <p class="video-stats">
+                            1,1 rb x ditonton &middot; 1 hari yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=miD_TWmdGIY&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=2" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-2.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        3.06
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@StevenHe" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-2.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-2.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Steven He
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        13,1 jt subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=miD_TWmdGIY&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=2" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                When "Asian" Is a Difficulty Mode
+                            </p>  
+                        </a>
+                        
+                        <p class="video-author">
+                            Steven He
+                        </p>
+            
+                        <p class="video-stats">
+                            61 jt x ditonton &middot; 3 tahun yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=bPv_IOPxM3w&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=3" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-3.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        23.27
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@bassklemens" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-3.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-3.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Bass Klemens
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        1,54 jt subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=bPv_IOPxM3w&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=3" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                AKHIRNYA HOKI LAGI!! KALO GA MENANG SIH BERENTI JD YOUTUBER LO BANG!!
+                            </p>    
+                        </a>
+            
+                        <p class="video-author">
+                            Bass Klemens
+                        </p>
+            
+                        <p class="video-stats">
+                            331 rb x ditonton &middot; 6 hari yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=HVliCFIAXMQ&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=4" target="_blank"> 
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-4.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        2.54
+                    </div>
+                </div>
+        
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/channel/UCsGztxjStsz2AQaZYxVpXdA" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-4.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-4.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Damon Empero
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        183 rb subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=HVliCFIAXMQ&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=4" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                Damon Empero ft. Mary Sweet - Maze
+                            </p>    
+                        </a>
+            
+                        <p class="video-stats">
+                            207 rb x ditonton &middot; 4 tahun yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=BZTSmIB5n8k&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=5" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-5.webp">
+                        </a>
+                    
+                    <div class="video-time">
+                        2.51
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/channel/UCBanisAE8WAZp8BCXowsRzw" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-5.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-5.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Aakash Gandhi - Topik
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        90,2 rb subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=BZTSmIB5n8k&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=5" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                Borderless
+                            </p>       
+                        </a>
+            
+                        <p class="video-author">
+                            Aakash Gandhi - Topik
+                        </p>
+            
+                        <p class="video-stats">
+                            1,1 jt x ditonton &middot; 4 tahun yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=IUIZFRESSwc&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=6" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-6.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        20.26
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@kelvingaming7" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-6.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-6.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Kelvin Gaming
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        3,81 jt subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=IUIZFRESSwc&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=6" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                VALE ELEMENTALIS PANGGUNG ! GAK PAKE NANGGUNG HERO 1 GOLD LAWAN BRODY ASTRO
+                            </p>    
+                        </a>
+                        
+                        <p class="video-author">
+                            Kelvin Gaming
+                        </p>
+            
+                        <p class="video-stats">
+                            92 rb x ditonton &middot; 13 jam yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=HQWun_Q1Fb8&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=7" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-7.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        3.06
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@SmoothInsomniac" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-7.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-7.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Smooth-Imsoniac
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        4,92 rb subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=HQWun_Q1Fb8&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=7" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                Asphyxia (Japanese, English, Romaji lyrics) - Tokyo Ghoul OP3 by Cö shu Nie
+                            </p>    
+                        </a>
+                        
+                        <p class="video-author">
+                            Smooth-Imsomniac
+                        </p>
+            
+                        <p class="video-stats">
+                            425 rb x ditonton &middot; 3 tahun yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=mEAaVoRxpCs&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=8" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-8.webp">
+                    </a>
+    
+                    <div class="video-time">
+                        3.09
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@muclubOfficial" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-8.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-8.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        MuClub
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        16,2 rb subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=mEAaVoRxpCs&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=8" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                Syko - #BrooklynBloodPop - MUSIC ONLY - (BASS BOOSTED)
+                            </p>     
+                        </a>
+            
+                        <p class="video-author">
+                            MuClub
+                        </p>
+            
+                        <p class="video-stats">
+                            13 jt x ditonton &middot; 3 tahun yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=VQ0PHKyugAs&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=9" target="_blank">
+                        <img class="thumbnail" src="thumbnails/YT-Thumbnail-9.webp">
+                    </a>
+                    
+                    <div class="video-time">
+                        2.59
+                    </div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <div class="profile-picture-container">
+                            <a href="https://www.youtube.com/@PrestigeVibes" target="_blank">
+                                <img class="profile-picture" src="channel-picture/chan-pict-9.jpg">
+                            </a>
+    
+                            <div class="channel-tooltip">
+                                <img class="channel-tooltip-picture" src="channel-picture/chan-pict-9.jpg">
+    
+                                <div>
+                                    <div class="channel-tooltip-name">
+                                        Prestige Vibes
+                                    </div>
+    
+                                    <div class="channel-tooltip-stats">
+                                        504 rb subscriber
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="video-info">
+                        <a href="https://www.youtube.com/watch?v=VQ0PHKyugAs&list=PLSX__K629tHfBcYcZmpj-R2yKeo50msXi&index=9" target="_blank" class="video-title-link">
+                            <p class="video-title">
+                                Leonell Cassio - Lying We're Fine (Lyrics) ft. Sarah Hemi
+                            </p>     
+                        </a>
+            
+                        <p class="video-author">
+                            Prestige Vibes
+                        </p>
+            
+                        <p class="video-stats">
+                        129 rb x ditonton &middot; 5 tahun yang lalu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="test.html">Link</a>
+</body>
+</html>
